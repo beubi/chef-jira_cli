@@ -12,19 +12,21 @@ The version of java needed depends on the jira cli version.
 
 Attributes
 ==========
-
+```ruby
 default['jira_cli']['version'] = 'jira-cli-4.0.0-SNAPSHOT'
 default['jira_cli']['username'] = nil
 default['jira_cli']['password'] = nil
 default['jira_cli']['server'] = nil
-
+```
 Usage
 =====
 
 Add to run list:
+```ruby
 "recipe[jira_cli]"
+```
+Then you should be able to run
 
-Then you should be able to do
 jira_cli -a <action>
 
 License & Authors
